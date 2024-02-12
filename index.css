@@ -1,0 +1,91 @@
+#title{
+  background-color: black;
+}
+.container-fluid{
+   padding: 3%;
+}
+header{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    background-color: black;
+    justify-content:center;
+    font-family: 'Chinese Rocks';
+}
+
+body{
+    background-color: black;
+    padding:5%;
+    color: white;
+    margin:0;
+    font-family: 'Calibri', calibri;
+}
+h1{
+  font-size: 5rem;
+}
+h2{
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+h3{
+  color: black;
+  font-family: 'Source Code Pro', monospace;
+}
+h4{
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+p{
+  font-family: 'PT Sans', sans-serif;
+}
+.navbar{
+  padding: 0 0 1rem;
+  color: black;
+}
+.nav-item{
+  padding: 0 10px;
+  color: white;
+}
+
+.nav-link{
+  font-size: 1rem;
+}
+
+.photo{
+    padding: 5%;
+}
+#title-photos{
+  padding: 3%;
+}
+.posts{
+    background-color: white;
+    color: black;
+    padding: 3%;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+.pic{
+  width: 100%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.form-group{
+  padding: 2%;
+}
+.contact-col .btnContact {
+    width: 120px;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: black;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
